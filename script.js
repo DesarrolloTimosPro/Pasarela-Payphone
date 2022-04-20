@@ -1,6 +1,6 @@
 
 
-console.log("hello word")
+console.log("que pajo")
 let costo_por_licencia = 120;
 let amount,amountWithoutTax,amountWithTax,tax,
 service,tip=0;
