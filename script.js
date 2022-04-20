@@ -36,7 +36,7 @@ function pagar(){
     amount = valorpayphone(costo_por_licencia*document.getElementById("cantidad_licencias").innerHTML);
     amountWithoutTax =  valorpayphone(costo_por_licencia*document.getElementById("cantidad_licencias").innerHTML);
     currency= "USD";
-clientTransactionId= "pruebasfdf001";
+    clientTransactionId= "pruebasgddfh001";
   }
   var Parametros = {
     amount:amount,
@@ -72,10 +72,10 @@ createOrder: function(actions){
 //Se ingresan los datos de la transaccion ej. monto, impuestos, etc
 return actions.prepare({
 
-amount: 100,
-amountWithoutTax: 100,
-currency: "USD",
-clientTransactionId: "jftgfyhvg001"
+amount: amount,
+amountWithoutTax: amountWithoutTax,
+currency: currency,
+clientTransactionId: clientTransactionId
 });
 
 },
